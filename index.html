@@ -5,22 +5,38 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>TDvFinds – Smart Home & Desk Setup Deals</title>
 
-  <!-- Pinterest Verification Tag (HIER später deinen echten Tag ersetzen) -->
-<meta name="p:domain_verify" content="750aee10d2346e7c0d2fd8eb520b2927"/>
+  <!-- Pinterest Verification -->
+  <meta name="p:domain_verify" content="750aee10d2346e7c0d2fd8eb520b2927"/>
 
   <!-- Open Graph Tags für Rich Pins -->
   <meta property="og:type"        content="website" />
   <meta property="og:site_name"   content="TDvFinds" />
   <meta property="og:title"       content="TDvFinds – Smart Home & Desk Setup Deals" />
   <meta property="og:description" content="Die besten Smart Home Gadgets und Home Office Setups – kuratiert und getestet. Alle Empfehlungen direkt auf Amazon." />
-  <meta property="og:url"         content="https://tdvfinds.github.io" />
-  <meta property="og:image"       content="https://tdvfinds.github.io/logo.png" />
+  <meta property="og:url"         content="https://thomkrr.github.io/tdvfinds.github.io/" />
+  <meta property="og:image"       content="https://thomkrr.github.io/tdvfinds.github.io/logo.png" />
   <meta property="og:locale"      content="de_DE" />
 
-  <!-- Twitter Card (optional aber gut für Trust) -->
-  <meta name="twitter:card"        content="summary" />
-  <meta name="twitter:title"       content="TDvFinds" />
-  <meta name="twitter:description" content="Smart Home & Desk Setup Deals auf Amazon" />
+  <!-- Schema.org Product Markup (aktiviert Product Rich Pins) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org/",
+    "@type": "Product",
+    "name": "TDvFinds – Smart Home & Desk Setup Deals",
+    "description": "Die besten Smart Home Gadgets und Home Office Setups auf Amazon.",
+    "image": "https://thomkrr.github.io/tdvfinds.github.io/logo.png",
+    "url": "https://thomkrr.github.io/tdvfinds.github.io/",
+    "brand": { "@type": "Brand", "name": "TDvFinds" },
+    "offers": {
+      "@type": "AggregateOffer",
+      "priceCurrency": "EUR",
+      "lowPrice": "10",
+      "highPrice": "1000",
+      "offerCount": "100",
+      "availability": "https://schema.org/InStock"
+    }
+  }
+  </script>
 
   <style>
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -35,50 +51,18 @@
       justify-content: center;
       padding: 2rem;
     }
-    .logo {
-      font-size: 3rem;
-      font-weight: 900;
-      letter-spacing: -2px;
-      color: #fff;
-      margin-bottom: 0.5rem;
-    }
+    .logo { font-size: 3rem; font-weight: 900; letter-spacing: -2px; color: #fff; margin-bottom: 0.5rem; }
     .logo span { color: #00C9B1; }
-    .tagline {
-      font-size: 1rem;
-      color: #888;
-      margin-bottom: 3rem;
-      letter-spacing: 2px;
-      text-transform: uppercase;
-    }
-    .links {
-      display: flex;
-      gap: 1rem;
-      flex-wrap: wrap;
-      justify-content: center;
-      margin-bottom: 4rem;
-    }
-    .btn {
-      padding: 0.75rem 1.5rem;
-      border-radius: 999px;
-      text-decoration: none;
-      font-weight: 600;
-      font-size: 0.9rem;
-      transition: all 0.2s;
-    }
+    .tagline { font-size: 1rem; color: #888; margin-bottom: 3rem; letter-spacing: 2px; text-transform: uppercase; }
+    .links { display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center; margin-bottom: 4rem; }
+    .btn { padding: 0.75rem 1.5rem; border-radius: 999px; text-decoration: none; font-weight: 600; font-size: 0.9rem; transition: all 0.2s; }
     .btn-primary { background: #00C9B1; color: #0f0f0f; }
     .btn-primary:hover { background: #00b09c; }
     .btn-outline { border: 1px solid #333; color: #aaa; }
     .btn-outline:hover { border-color: #555; color: #fff; }
-    .disclaimer {
-      max-width: 600px;
-      text-align: center;
-      font-size: 0.78rem;
-      color: #555;
-      line-height: 1.6;
-      border-top: 1px solid #1e1e1e;
-      padding-top: 2rem;
-    }
+    .disclaimer { max-width: 600px; text-align: center; font-size: 0.78rem; color: #555; line-height: 1.6; border-top: 1px solid #1e1e1e; padding-top: 2rem; }
     .disclaimer a { color: #00C9B1; text-decoration: none; }
+    #impressum { max-width: 600px; margin-top: 3rem; font-size: 0.75rem; color: #444; text-align: center; line-height: 1.8; }
   </style>
 </head>
 <body>
@@ -89,40 +73,27 @@
   <div class="links">
     <a class="btn btn-primary"
        href="https://www.pinterest.de/tdvfinds"
-       target="_blank" rel="noopener noreferrer">
-      📌 Pinterest folgen
-    </a>
+       target="_blank" rel="noopener noreferrer">📌 Pinterest folgen</a>
     <a class="btn btn-outline"
        href="https://www.amazon.de/?tag=DEIN-PARTNER-TAG-21"
-       target="_blank" rel="noopener noreferrer">
-      🛒 Amazon Deals
-    </a>
+       target="_blank" rel="noopener noreferrer">🛒 Amazon Deals</a>
   </div>
 
-  <!-- =====================================================
-       PFLICHT: Amazon PartnerNet Disclaimer
-       Dieser Text MUSS auf der Seite sichtbar sein!
-  ====================================================== -->
   <p class="disclaimer">
-    * Als Amazon-Partner verdiene ich an qualifizierten Käufen.
+    *Als Amazon-Partner verdiene ich an qualifizierten Käufen.
     Die mit * gekennzeichneten Links sind Affiliate-Links.
     Wenn du über diese Links einkaufst, erhalte ich eine kleine Provision –
-    für dich entstehen dabei <strong>keine Mehrkosten</strong>.
-    Alle Empfehlungen basieren auf persönlicher Recherche und Produktbewertungen.<br><br>
-    <a href="mailto:info@tdvfinds.de">Kontakt</a> ·
-    <a href="#impressum">Impressum</a>
+    für dich entstehen dabei <strong>keine Mehrkosten</strong>.<br><br>
+    <a href="mailto:info@tdvfinds.de">Kontakt</a> · <a href="#impressum">Impressum</a>
   </p>
 
-  <!-- Minimales Impressum (Pflicht in DE auch für Affiliate-Seiten) -->
-  <div id="impressum" style="max-width:600px;margin-top:3rem;font-size:0.75rem;color:#444;text-align:center;line-height:1.8;">
+  <div id="impressum">
     <strong style="color:#666">Impressum</strong><br>
     Angaben gemäß § 5 TMG<br>
-    -<br>
-    -<br>
-    [-]<br>
-    E-Mail: info@tdvfinds.de<br><br>
-    <em>Verantwortlich für den Inhalt nach § 55 Abs. 2 RStV:</em><br>
-    -, -
+    [DEIN VORNAME NACHNAME]<br>
+    [DEINE STRASSE UND HAUSNUMMER]<br>
+    [PLZ ORT]<br>
+    E-Mail: info@tdvfinds.de
   </div>
 
 </body>
